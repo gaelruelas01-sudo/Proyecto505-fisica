@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campaña: Mitigar los efectos contaminantes debidos a la energía</title>
+  <meta name="description" content="Campaña informativa y de acción para reducir los impactos contaminantes de la generación y uso de energía." />
+  <style>
+    :root{--accent:#0f766e;--muted:#6b7280;--bg:#f8fafc;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.5;background:var(--bg);color:#0f172a}
+    header{background:linear-gradient(90deg, rgba(15,118,110,0.08), rgba(6,95,70,0.05));padding:20px 16px;position:sticky;top:0;backdrop-filter:blur(4px);z-index:10}
+    .container{max-width:1100px;margin:0 auto;padding:16px}
+    .brand{display:flex;gap:12px;align-items:center;justify-content:space-between}
+    .logo{width:48px;height:48px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav ul{display:flex;gap:12px;list-style:none;margin:0;padding:0}
+    nav a{text-decoration:none;color:var(--accent);font-weight:600}
+    nav a:hover{text-decoration:underline}
+    .btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer;text-decoration:none;display:inline-block;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;padding:28px 0}
+    .hero-card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .hero h1{margin:0 0 8px;font-size:28px}
+    .hero p{margin:0;color:var(--muted)}
+
+    .main{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04);margin-bottom:12px}
+    .tag{display:inline-block;background:#eef2f2;color:var(--accent);padding:6px 8px;border-radius:999px;font-size:13px;margin-right:6px}
+
+    footer{margin-top:28px;padding:20px 0;color:var(--muted);font-size:14px;text-align:center}
+
+    @media (max-width:900px){
+      nav ul{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container brand">
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="logo">CE</div>
+        <div>
+          <div style="font-weight:700">Campaña EnergíaEco</div>
+          <div class="small">Mitigando los efectos contaminantes de la energía</div>
+        </div>
+      </div>
+      <nav>
+        <ul role="navigation" aria-label="Main navigation">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Campaña para mitigar los efectos contaminantes debidos a la energía</h1>
+        <p>Bienvenido a nuestra campaña educativa y de acción ambiental. Aquí promovemos el uso responsable de la energía, la reducción de emisiones y el apoyo a las fuentes renovables para cuidar nuestro entorno y nuestra salud.</p>
+      </div>
+
+      <div id="objetivos" style="display:flex;gap:12px;flex-wrap:wrap">
+        <div class="hero-card" style="flex:1;min-width:220px">
+          <h3 style="margin:0 0 6px">Objetivos principales</h3>
+          <ul class="small" style="margin:0;padding-left:18px">
+            <li>Reducir las emisiones contaminantes por consumo energético.</li>
+            <li>Promover la eficiencia y el uso de energías limpias.</li>
+            <li>Concientizar a la población sobre los efectos ambientales.</li>
+          </ul>
+        </div>
+        <div class="hero-card" style="min-width:220px">
+          <h3 style="margin:0 0 6px">Acciones clave</h3>
+          <div class="small">
+            <span class="tag">Educación Ambiental</span>
+            <span class="tag">Eficiencia Energética</span>
+            <span class="tag">Energías Renovables</span>
+            <div style="margin-top:8px">Campañas informativas, talleres escolares y proyectos comunitarios para impulsar un cambio sostenible.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:24px;">
+        <a href="galeria.html" class="btn">Ver Galería de Zonas Afectadas</a>
+      </div>
+    </section>
+
+    <section id="recursos" style="margin-top:18px">
+      <div class="hero-card">
+        <h3>Recursos y llamados a la acción</h3>
+        <ol class="small">
+          <li>Guía práctica para reducir el consumo eléctrico en casa.</li>
+          <li>Consejos para ahorrar energía en oficinas y escuelas.</li>
+          <li>Programas de apoyo para instalar paneles solares.</li>
+          <li>Formas de participar en actividades comunitarias.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="small">© 2025 Campaña EnergíaEco — Comprometidos con un futuro más limpio. 
+    </div>
+  </footer>
+</body>
+</html>
